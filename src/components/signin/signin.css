@@ -1,0 +1,14 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 25%;
+    margin-top: 1%;
+}
+input{
+    height: 45px;
+}
+.logare{
+    width: 25%;
+    margin:  8% 37% 0% 37%;
+}

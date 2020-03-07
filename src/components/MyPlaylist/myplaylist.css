@@ -1,0 +1,23 @@
+
+h1{
+    margin-left: 50px;
+}
+.enter-field{
+    margin: 2% 0.1% 0 auto;
+
+    display: flex;
+    justify-content: center;
+}
+.input-text{
+    width: 30%;
+    margin-right: 0.5%;
+}
+.options{
+    width: 10%;
+    font-size: 1rem;
+    margin-right: 0.5%;
+}
+.add{
+    width: 8%;
+    background-color: rgb(139, 198, 247);
+}

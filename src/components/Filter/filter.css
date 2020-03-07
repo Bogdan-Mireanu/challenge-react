@@ -1,0 +1,20 @@
+.filter-buttons{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25.5%;
+    margin-top: 1%;
+    width: 50%;
+
+}
+
+button{
+    border: 1px solid rgb(139, 198, 247);
+    height: 5%;
+    padding: 1rem;
+    background-color: transparent;
+    margin: 0 1rem 0 1rem;
+}
+
+button:hover{
+    background-color: rgb(139, 198, 247);
+}

@@ -1,0 +1,25 @@
+.app{
+  font-size: medium;
+}
+.playlist-container{
+  margin: auto;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  margin-top: 1.5rem;
+}
+.muzica{
+  border:2px solid grey;
+  box-shadow: 0 0 10px #aaa;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  padding: 0.2rem;
+}
+.video{
+  border: 2px solid rgb(221, 174, 86);
+  box-shadow: 0 0 10px #aaa;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  padding: 0.2rem;
+}
