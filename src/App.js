@@ -32,6 +32,14 @@ class App extends React.Component {
     localStorage.setItem('password', user? password:'')
   }*/
 
+  remove = (id) => {
+    const playlistUpdated =this.state.playlists.filter(item =>item.id !== id);
+    this.setState({
+      playlists : playlistUpdated
+      
+    });
+    console.table(this.state.playlists)
+  } 
   onRouteChange = () => {
     this.setState({
       route: 'enterPlaylists'
@@ -58,7 +66,7 @@ class App extends React.Component {
       handleFormSubmit={this.handleFormSubmit}
       /> : 
         <div>
-        <MyPlaylist onSubmit={this.addPlaylist} playlists={this.state.playlists}/>
+        <MyPlaylist onSubmit={this.addPlaylist} playlists={this.state.playlists} remove={this.remove}/>
         </div>} 
         </div>
       );
