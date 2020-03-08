@@ -1,20 +1,29 @@
-.filter-buttons{
-    display: flex;
-    flex-direction: row;
-    margin-left: 25.5%;
-    margin-top: 1%;
-    width: 50%;
+.filter-buttons {
+    margin-top: 20px;
 
 }
 
-button{
+.filter-buttons button {
     border: 1px solid rgb(139, 198, 247);
-    height: 5%;
+    height: 60px;
     padding: 1rem;
     background-color: transparent;
-    margin: 0 1rem 0 1rem;
+    margin-right: 1rem;
 }
 
-button:hover{
+.filter-buttons button:last-child {
+    margin-right: 0;
+}
+
+button:hover {
     background-color: rgb(139, 198, 247);
+}
+
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
 }

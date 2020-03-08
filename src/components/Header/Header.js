@@ -7,6 +7,9 @@ export default class Header extends Component{
         return (
             <div className='header'>
                 <h1>Hello, name</h1>
+                <nav className ='logout'>
+                    <b><a href="">LOGOUT</a></b>
+                </nav>
             </div>
         )
     }

@@ -8,7 +8,11 @@
 input{
     height: 45px;
 }
+input[type=text]:focus {
+    background-color: lightblue;
+  }
 .logare{
     width: 25%;
     margin:  8% 37% 0% 37%;
+    background-color: rgb(139, 198, 247);
 }
