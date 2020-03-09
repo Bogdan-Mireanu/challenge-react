@@ -73,7 +73,7 @@ export default class MyPlaylist extends Component {
 
     return (
       <div className="container">
-        <Header />
+        <Header user={this.props.user}/>
         <form
           className="enter-field flex justify-center"
           onSubmit={this.handleSubmit}
@@ -113,7 +113,7 @@ export default class MyPlaylist extends Component {
         ) : null}
         <div className="playlist-container">
           {showPlaylists.map(item => (
-            <div itemKey={item.id} className={item.class}>
+            <div key={item.id} className={item.class}>
               {item.text}
               <button className='remove'type='button' onClick={()=>this.props.remove(item.id)}><b>  X</b></button>
             </div>
